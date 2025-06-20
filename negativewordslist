@@ -1,0 +1,186 @@
+# 🚫 Negative Prompt Wordlist for Generative AI Models
+
+This documentation provides a **comprehensive, categorized, and enhanced list** of negative prompt terms—also referred to as "undesirable keywords"—used to fine-tune the output of **text-to-image AI models** such as Stable Diffusion, Midjourney, DALL·E, Leonardo AI, and others. These terms are essential for controlling the generative output and preventing visual or contextual errors, inappropriate elements, or stylistic deviations.
+
+> 📌 **Purpose**: Enhance creative control, improve visual fidelity, and prevent unwanted content in AI-generated images.
+
+---
+
+## 📖 Table of Contents
+
+1. [Visual Defect Terms](#1-visual-defect-terms)
+2. [Facial Imperfections & Distortions](#2-facial-imperfections--distortions)
+3. [Skin & Surface Flaws](#3-skin--surface-flaws)
+4. [Style-Based Filters](#4-style-based-filters)
+5. [Body & Pose Errors](#5-body--pose-errors)
+6. [Contextual Censorship or Coverage](#6-contextual-censorship-or-coverage)
+7. [Lighting & Exposure Problems](#7-lighting--exposure-problems)
+8. [Emotionally Disturbing or Unsettling Concepts](#8-emotionally-disturbing-or-unsettling-concepts)
+9. [Cultural, Political, and Socially Sensitive Concepts](#9-cultural-political-and-socially-sensitive-concepts)
+10. [Medical & Mental Health Filters](#10-medical--mental-health-filters)
+11. [Abstract & Metaphysical Filters](#11-abstract--metaphysical-filters)
+12. [Extra Entities or Composition Errors](#12-extra-entities-or-composition-errors)
+13. [Corruption, Artifacts & Glitches](#13-corruption-artifacts--glitches)
+14. [Legal, Offensive, or NSFW Blockers](#14-legal-offensive-or-nsfw-blockers)
+15. [Contribution Guidelines](#15-contribution-guidelines)
+16. [License](#16-license)
+
+---
+
+## 1. 🔍 Visual Defect Terms
+
+These terms target poor rendering, drawing errors, and overall quality degradation in the image output.
+
+```
+bad anatomy, bad hands, deformed, disfigured, blurry, mutated, mutated hands,
+tiling, poorly drawn hands, poorly drawn face, out of frame, extra limbs,
+body out of frame, cropped, error, low detail, distorted, oversmoothed
+```
+
+## 2. 👤 Facial Imperfections & Distortions
+
+Apply these to eliminate flawed, misaligned, or grotesque facial renderings.
+
+```
+bad face, blurry face, disfigured face, pixelated face, distorted face,
+flat face, asymmetrical face, unattractive face, grotesque face,
+demonic face, scary face, uncanny face, low-effort face, over-rendered face
+```
+
+## 3. 🧬 Skin & Surface Flaws
+
+Refine skin tone and texture by blocking anomalies, blemishes, or artificial appearances.
+
+```
+skin blemishes, acne, wrinkles, fake skin, plastic skin, unnatural skin texture,
+unrealistic skin, rough skin, glossy skin, waxy skin, overly smooth skin
+```
+
+## 4. 🖌 Style-Based Filters
+
+Use these to remove artistic styles when seeking photorealism.
+
+```
+cartoon, cartoonish, anime, chibi, illustration, sketch, 2d art, painting,
+watercolor, comic style, cel shading, pixel art, doodle, inked, lineart
+```
+
+## 5. 🧍‍♀️ Body & Pose Errors
+
+Control pose and anatomical consistency using these exclusions.
+
+```
+sitting, lying down, bent limbs, awkward pose, unnatural pose,
+broken limbs, missing limbs, twisted limbs, extra fingers, fused limbs,
+disproportioned body, asymmetrical body, malformed, misshapen
+```
+
+## 6. 🚫 Contextual Censorship or Coverage
+
+Suppress outputs with unwanted coverage or censorship.
+
+```
+clothing, covered body, censored, blurred, obscured, mosaic, pixelation
+```
+
+## 7. 💡 Lighting & Exposure Problems
+
+Avoid poor lighting effects that distort the realism or quality.
+
+```
+poor lighting, bad shadows, harsh shadows, overexposed, underexposed,
+over processed, noisy shadows, uneven lighting, incorrect highlights
+```
+
+## 8. 💀 Emotionally Disturbing or Unsettling Concepts
+
+Control generation of disturbing imagery that may violate safety standards.
+
+```
+frightening, horrifying, terrifying, gruesome, morbid, grotesque,
+disgusting, repulsive, disturbing, unsettling, creepy, scary, nightmarish
+```
+
+## 9. 🌍 Cultural, Political, and Socially Sensitive Concepts
+
+Highly recommended for neutral or brand-safe content generation.
+
+```
+racism, sexism, homophobia, transphobia, xenophobia,
+anti-Semitism, Islamophobia, religious persecution,
+political symbols, communist, fascist, capitalist, extremist,
+slavery, genocide, war crimes, execution, torture
+```
+
+## 10. 🧠 Medical & Mental Health Filters
+
+Avoid themes relating to disability, mental health issues, or traumatic conditions.
+
+```
+PTSD, depression, anxiety, psychosis, schizophrenia,
+bipolar disorder, autism, ADHD, mental retardation,
+paralysis, amputation, disease, infection, sickness,
+epidemic, pandemic, starvation, famine, malnutrition, poverty
+```
+
+## 11. 🌌 Abstract & Metaphysical Filters
+
+Prevent obscure or negative emotional imagery with philosophical context.
+
+```
+darkness, oblivion, void, nothingness, emptiness, decay,
+dissolution, vanishing, disintegration, shadow, silence, stagnation
+```
+
+## 12. 👥 Extra Entities or Composition Errors
+
+For strict composition control, especially in product photography or portraits.
+
+```
+extra people, multiple heads, doubled person, cloned limbs,
+mirrored face, background person, ghost person, unwanted duplicates
+```
+
+## 13. 🧱 Corruption, Artifacts & Glitches
+
+Combat rendering noise and technical artifacts.
+
+```
+glitch, noise, artifact, corrupted, broken, jpeg artifacts,
+mold, rust, mildew, erosion, smudged, warped, broken textures
+```
+
+## 14. 🛑 Legal, Offensive, or NSFW Blockers
+
+Mandatory for SFW models and public-facing applications.
+
+```
+vulgar, explicit, offensive, obscene, lewd, pornographic,
+NSFW, sexual content, nude, topless, genitalia, indecent,
+harassment, abuse, slur, insult, assault, crime, torture, violence
+```
+
+---
+
+## 15. 📢 Contribution Guidelines
+
+* Pull requests must follow proper term categorization.
+* All additions should enhance image safety or fidelity.
+* Submit issues to propose category expansions.
+* Please cite real-world examples if terms are novel.
+
+## 16. 📜 License
+
+Distributed under [CC0 1.0 Universal (Public Domain Dedication)](https://creativecommons.org/publicdomain/zero/1.0/). Use freely in personal, educational, or commercial projects.
+
+---
+
+### 🔧 Maintained by
+
+**iBoss / davidio.dev**
+[GitHub Profile](https://github.com/iboss21)
+Use in AI labs, image generators, and SD pipelines.
+
+---
+
+> 🧠 *Use with care.* Negative prompts are powerful tools. Always test and adjust depending on the model, context, and intended output.
