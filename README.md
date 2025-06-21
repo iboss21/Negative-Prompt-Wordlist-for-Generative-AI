@@ -428,31 +428,6 @@ See [`LICENSE`](./LICENSE) file for full details.
 
 ---
 
-## 💬 Community & Support
-
-### 🌟 **Join Our Community**
-
-- 💬 **Discord**: [Join our server](https://discord.gg/YOUR_DISCORD) for real-time chat
-- 🐦 **Twitter**: [@EnhancedPrompts](https://twitter.com/YOUR_TWITTER) for updates
-- 📺 **YouTube**: [Tutorial Channel](https://youtube.com/YOUR_CHANNEL) for video guides
-- 📖 **Wiki**: [Community Wiki](https://github.com/iboss21/enhanced-negative-prompts/wiki) for detailed docs
-
-### 🆘 **Getting Help**
-
-1. **📋 Check existing [Issues](https://github.com/iboss21/enhanced-negative-prompts/issues)**
-2. **💬 Join our [Discussions](https://github.com/iboss21/enhanced-negative-prompts/discussions)**  
-3. **📧 Contact**: [your-email@domain.com](mailto:your-email@domain.com)
-
-### 🏆 **Contributors**
-
-Thanks to all our amazing contributors who make this project possible!
-
-<a href="https://github.com/iboss21/enhanced-negative-prompts/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=iboss21/enhanced-negative-prompts" />
-</a>
-
----
-
 ## 📈 Stats & Usage
 
 <div align="center">
