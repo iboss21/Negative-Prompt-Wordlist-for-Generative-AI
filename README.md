@@ -3,9 +3,9 @@
 <div align="center">
 
 [![License: CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
-[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/enhanced-negative-prompts?style=social)](https://github.com/YOUR_USERNAME/enhanced-negative-prompts/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/YOUR_USERNAME/enhanced-negative-prompts?style=social)](https://github.com/YOUR_USERNAME/enhanced-negative-prompts/network)
-[![GitHub issues](https://img.shields.io/github/issues/YOUR_USERNAME/enhanced-negative-prompts)](https://github.com/YOUR_USERNAME/enhanced-negative-prompts/issues)
+[![GitHub stars](https://img.shields.io/github/stars/iboss21/enhanced-negative-prompts?style=social)](https://github.com/iboss21/enhanced-negative-prompts/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/iboss21/enhanced-negative-prompts?style=social)](https://github.com/iboss21/enhanced-negative-prompts/network)
+[![GitHub issues](https://img.shields.io/github/issues/iboss21/enhanced-negative-prompts)](https://github.com/iboss21/enhanced-negative-prompts/issues)
 [![CivitAI Compatible](https://img.shields.io/badge/CivitAI-Compatible-blue)](https://civitai.com/)
 [![Stable Diffusion](https://img.shields.io/badge/Stable%20Diffusion-Compatible-green)](https://stability.ai/)
 
@@ -83,7 +83,7 @@ This repository contains the **most comprehensive collection of negative prompts
 ### 1️⃣ **Basic Usage**
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/enhanced-negative-prompts.git
+git clone https://github.com/iboss21/enhanced-negative-prompts.git
 
 # Access the main wordlist
 cat words.md
@@ -98,7 +98,7 @@ cat words.md
 ### 3️⃣ **API Integration**
 ```javascript
 // Fetch latest negative prompts programmatically
-const response = await fetch('https://raw.githubusercontent.com/YOUR_USERNAME/enhanced-negative-prompts/main/words.md');
+const response = await fetch('https://raw.githubusercontent.com/iboss21/enhanced-negative-prompts/main/words.md');
 const negativePrompts = await response.text();
 ```
 
@@ -155,13 +155,13 @@ enhanced-negative-prompts/
 1. **Extension Method** (Recommended)
    ```bash
    # Navigate to Extensions tab
-   # Install from URL: https://github.com/YOUR_USERNAME/enhanced-negative-prompts
+   # Install from URL: https://github.com/iboss21/enhanced-negative-prompts
    ```
 
 2. **Manual Method**
    ```bash
    # Download presets
-   wget https://raw.githubusercontent.com/YOUR_USERNAME/enhanced-negative-prompts/main/presets/portrait.txt
+   wget https://raw.githubusercontent.com/iboss21/enhanced-negative-prompts/main/presets/portrait.txt
    
    # Place in styles folder
    mv portrait.txt /path/to/stable-diffusion-webui/styles/
@@ -331,7 +331,7 @@ Controls scene composition and background elements.
 import requests
 
 # Fetch latest negative prompts
-response = requests.get('https://api.github.com/repos/YOUR_USERNAME/enhanced-negative-prompts/contents/words.md')
+response = requests.get('https://api.github.com/repos/iboss21/enhanced-negative-prompts/contents/words.md')
 content = response.json()['content']
 negative_prompts = base64.b64decode(content).decode('utf-8')
 ```
@@ -340,7 +340,7 @@ negative_prompts = base64.b64decode(content).decode('utf-8')
 ```javascript
 // Auto-sync with your application
 const updateNegativePrompts = async () => {
-  const response = await fetch('https://raw.githubusercontent.com/YOUR_USERNAME/enhanced-negative-prompts/main/civitai-config.json');
+  const response = await fetch('https://raw.githubusercontent.com/iboss21/enhanced-negative-prompts/main/civitai-config.json');
   const config = await response.json();
   return config.preset_categories;
 };
@@ -435,20 +435,20 @@ See [`LICENSE`](./LICENSE) file for full details.
 - 💬 **Discord**: [Join our server](https://discord.gg/YOUR_DISCORD) for real-time chat
 - 🐦 **Twitter**: [@EnhancedPrompts](https://twitter.com/YOUR_TWITTER) for updates
 - 📺 **YouTube**: [Tutorial Channel](https://youtube.com/YOUR_CHANNEL) for video guides
-- 📖 **Wiki**: [Community Wiki](https://github.com/YOUR_USERNAME/enhanced-negative-prompts/wiki) for detailed docs
+- 📖 **Wiki**: [Community Wiki](https://github.com/iboss21/enhanced-negative-prompts/wiki) for detailed docs
 
 ### 🆘 **Getting Help**
 
-1. **📋 Check existing [Issues](https://github.com/YOUR_USERNAME/enhanced-negative-prompts/issues)**
-2. **💬 Join our [Discussions](https://github.com/YOUR_USERNAME/enhanced-negative-prompts/discussions)**  
+1. **📋 Check existing [Issues](https://github.com/iboss21/enhanced-negative-prompts/issues)**
+2. **💬 Join our [Discussions](https://github.com/iboss21/enhanced-negative-prompts/discussions)**  
 3. **📧 Contact**: [your-email@domain.com](mailto:your-email@domain.com)
 
 ### 🏆 **Contributors**
 
 Thanks to all our amazing contributors who make this project possible!
 
-<a href="https://github.com/YOUR_USERNAME/enhanced-negative-prompts/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=YOUR_USERNAME/enhanced-negative-prompts" />
+<a href="https://github.com/iboss21/enhanced-negative-prompts/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=iboss21/enhanced-negative-prompts" />
 </a>
 
 ---
@@ -457,10 +457,10 @@ Thanks to all our amazing contributors who make this project possible!
 
 <div align="center">
 
-![GitHub repo size](https://img.shields.io/github/repo-size/YOUR_USERNAME/enhanced-negative-prompts)
-![GitHub language count](https://img.shields.io/github/languages/count/YOUR_USERNAME/enhanced-negative-prompts)
-![GitHub top language](https://img.shields.io/github/languages/top/YOUR_USERNAME/enhanced-negative-prompts)
-![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/enhanced-negative-prompts)
+![GitHub repo size](https://img.shields.io/github/repo-size/iboss21/enhanced-negative-prompts)
+![GitHub language count](https://img.shields.io/github/languages/count/iboss21/enhanced-negative-prompts)
+![GitHub top language](https://img.shields.io/github/languages/top/iboss21/enhanced-negative-prompts)
+![GitHub last commit](https://img.shields.io/github/last-commit/iboss21/enhanced-negative-prompts)
 
 **📊 Repository Statistics:**
 - 🎯 **10,000+** curated negative prompts
@@ -488,7 +488,7 @@ Thanks to all our amazing contributors who make this project possible!
 
 ### 💡 **Feature Requests**
 
-Have an idea? [Open an issue](https://github.com/YOUR_USERNAME/enhanced-negative-prompts/issues/new?assignees=&labels=enhancement&template=feature_request.md) or join our [discussions](https://github.com/YOUR_USERNAME/enhanced-negative-prompts/discussions)!
+Have an idea? [Open an issue](https://github.com/iboss21/enhanced-negative-prompts/issues/new?assignees=&labels=enhancement&template=feature_request.md) or join our [discussions](https://github.com/iboss21/enhanced-negative-prompts/discussions)!
 
 ---
 
@@ -496,7 +496,7 @@ Have an idea? [Open an issue](https://github.com/YOUR_USERNAME/enhanced-negative
 
 **⭐ Star this repository if it helped you create better AI art!**
 
-[![Made with ❤️ by the AI Community](https://img.shields.io/badge/Made%20with%20❤️%20by-AI%20Community-red.svg)](https://github.com/YOUR_USERNAME/enhanced-negative-prompts)
+[![Made with ❤️ by the AI Community](https://img.shields.io/badge/Made%20with%20❤️%20by-AI%20Community-red.svg)](https://github.com/iboss21/enhanced-negative-prompts)
 
 **🎨 Happy Generating! 🎨**
 
