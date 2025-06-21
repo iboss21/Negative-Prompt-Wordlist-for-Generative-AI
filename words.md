@@ -1,8 +1,8 @@
 # 🚫 Negative Prompt Wordlist for Generative AI Models
 
-This documentation provides a **comprehensive, categorized, and extensively enhanced list** of negative prompt terms—also referred to as "undesirable keywords"—used to fine-tune the output of **text-to-image AI models** such as Stable Diffusion, Midjourney, DALL·E, Leonardo AI, ComfyUI, and others. These terms are essential for controlling generative output, preventing visual or contextual errors, inappropriate elements, or stylistic deviations.
+This documentation provides a **comprehensive, categorized, and extensively enhanced list** of negative prompt terms also referred to as "undesirable keywords" used to fine-tune the output of **text-to-image AI models** such as Stable Diffusion, Midjourney, DALL·E, Leonardo AI, ComfyUI, and others. These terms are essential for controlling generative output, preventing visual or contextual errors, inappropriate elements, or stylistic deviations.
 
-> 📌 **Purpose**: Enhance creative control, improve visual fidelity, prevent unwanted content, and achieve professional-grade AI-generated images.
+> 📌 **Purpose**: Enhance creative control, improve visual fidelity, prevent unwanted content, and achieve professional grade AI-generated images.
 
 [![License: CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 [![GitHub Stars](https://img.shields.io/github/stars/yourusername/negative-prompts?style=social)](https://github.com/yourusername/negative-prompts)
